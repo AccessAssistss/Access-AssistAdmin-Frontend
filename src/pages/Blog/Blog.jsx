@@ -129,7 +129,7 @@ function Blog() {
             </div>
             <CommanTable
                 columns={columns}
-                data={blogs || []}
+                data={blogs?.filter(Boolean) || []}
                 status={status}
                 onDelete={handleBlogDeletion}
                 onEdit={handleEditData}
