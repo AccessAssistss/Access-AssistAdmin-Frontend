@@ -196,6 +196,7 @@ function Blog() {
                                             <JoditEditor
                                                 required={true}
                                                 value={description}
+                                                config={{ readonly: false, uploader: { insertImageAsBase64URI: true } }}
                                                 tabIndex={1}
                                                 onBlur={newContent => setDescription(newContent)}
                                                 onChange={newContent => { }}
