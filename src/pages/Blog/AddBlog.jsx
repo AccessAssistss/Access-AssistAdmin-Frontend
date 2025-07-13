@@ -15,6 +15,7 @@ function AddBlog() {
     const closeButtonRef = useRef(null);
     const [isIconValid, setIsIconValid] = useState(true);
     const [loading, setLoading] = useState(false);
+    
     const blogStatus = useSelector((state) => state.blog.status);
 
         useEffect(() => {
