@@ -17,6 +17,9 @@ function AddBlog() {
     const [loading, setLoading] = useState(false);
     const blogStatus = useSelector((state) => state.blog.status);
 
+    const YourComponent = () => {
+    const [description, setDescription] = useState('');
+
     useEffect(() => {
         if (blogStatus === "succeeded") {
             handleCloseModal();
@@ -114,6 +117,7 @@ function AddBlog() {
                                     <JoditEditor
                                         required={true}
                                         value={description}
+                                        config={{ readonly: false, uploader: { insertImageAsBase64URI: true } }}
                                         tabIndex={1}
                                         onBlur={newContent => setDescription(newContent)}
                                         onChange={newContent => { }}
