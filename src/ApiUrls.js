@@ -16,3 +16,9 @@ export const updateBlogAPI = `${baseUrl}/api/blog/update`;
 export const updateBlogStatusAPI = `${baseUrl}/api/blog/status`;
 export const getBlogAPI = `${baseUrl}/api/blog/all`;
 export const deleteBlogAPI = `${baseUrl}/api/blog`;
+
+// Project API
+export const createProjectAPI = `${baseUrl}/api/project/createProject`;
+export const updateProjectAPI = `${baseUrl}/api/project/updateProject`;
+export const updateProjectStatusAPI = `${baseUrl}/api/project/updateProjectStatus`;
+export const getAllProjectsAPI = `${baseUrl}/api/project/getAllProjects`;

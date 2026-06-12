@@ -37,7 +37,6 @@ const jobSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // Handle fetching jobs
       .addCase(getJob.pending, (state) => {
         state.status = "loading";
       })

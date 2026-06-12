@@ -6,6 +6,7 @@ function Sidebar({ closeSidebar }) {
         { id: 1, name: "Home", link: "", icon: "house-fill" },
         { id: 2, name: "Job", link: "job", icon: "person-fill" },
         { id: 3, name: "Blog", link: "blog", icon: "chat-square-text" },
+        { id: 4, name: "Projects", link: "Projects", icon: "chat-square-text" },
     ];
 
     return (

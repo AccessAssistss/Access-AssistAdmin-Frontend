@@ -15,6 +15,7 @@ import Signin from "./pages/Signin/Signin.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Project from "./pages/Projects/Project";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="signin" element={<Signin />}></Route>
       <Route path="job" element={<Job />}></Route>
       <Route path="blog" element={<Blog />}></Route>
+      <Route path="Projects" element={<Project/>}></Route>
     </Route>
   )
 )
