@@ -4,9 +4,10 @@ import { NavLink } from 'react-router-dom';
 function Sidebar({ closeSidebar }) {
     const menuItem = [
         { id: 1, name: "Home", link: "", icon: "house-fill" },
-        { id: 2, name: "Job", link: "job", icon: "person-fill" },
-        { id: 3, name: "Blog", link: "blog", icon: "chat-square-text" },
-        { id: 4, name: "Projects", link: "Projects", icon: "chat-square-text" },
+        { id: 2, name: "Job Posts", link: "jobPost", icon: "chat-square-text" },
+        { id: 3, name: "Applied Job", link: "job", icon: "person-fill" },
+        { id: 4, name: "Blog", link: "blog", icon: "chat-square-text" },
+        { id: 5, name: "Projects", link: "Projects", icon: "chat-square-text" },
     ];
 
     return (

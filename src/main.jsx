@@ -16,6 +16,7 @@ import Blog from "./pages/Blog/Blog.jsx";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Project from "./pages/Projects/Project";
+import JobPost from "./pages/JobPost/JobPost";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="job" element={<Job />}></Route>
       <Route path="blog" element={<Blog />}></Route>
       <Route path="Projects" element={<Project/>}></Route>
+      <Route path="jobPost" element={<JobPost/>}></Route>
     </Route>
   )
 )
