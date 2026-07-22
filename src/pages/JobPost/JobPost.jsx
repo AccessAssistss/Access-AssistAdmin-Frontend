@@ -94,8 +94,8 @@ function JobPost() {
       },
     },
     {
-      label: "End Date",
-      accessor: "endDate",
+      // label: "End Date",
+      // accessor: "end Date",
       formatter: (date) =>
         date ? new Date(date).toLocaleDateString("en-GB") : "-",
     },
